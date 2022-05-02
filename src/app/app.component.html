@@ -1,0 +1,11 @@
+
+<h2>Click below button to show and hide the Information</h2>
+
+<div *ngIf="toggle">
+    <h4><span>Name: </span>{{name}}</h4>
+    <h4><span>Email: </span>{{email}}</h4>
+    <app-life-cycle></app-life-cycle>
+    
+</div>
+
+<button (click)="toggleswitch()">Show Or Hide </button>
